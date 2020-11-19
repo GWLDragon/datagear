@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+     http://www.springframework.org/schema/beans 
+     http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/tx
+     http://www.springframework.org/schema/tx/spring-tx.xsd
+     http://www.springframework.org/schema/aop 
+     http://www.springframework.org/schema/aop/spring-aop.xsd
+     http://www.springframework.org/schema/context 
+     http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean id="derbyRootDirectoryFactory" class="org.datagear.web.util.DirectoryFactory" init-method="init">
+    	<property name="directoryName" value="${directory.derby}" />
+    	<property name="createIfInexistence" value="false" />
+    </bean>
+    
+   <!-- <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+		<property name="driverClassName">
+			<value>org.apache.derby.jdbc.EmbeddedDriver</value>
+		</property>
+		<property name="url">
+			<value>jdbc:derby:#{derbyRootDirectoryFactory.getDirectoryAbsolutePath()};create=true</value>
+		</property>
+		&lt;!&ndash;
+		<property name="username">
+			<value></value>
+		</property>
+		<property name="password">
+			<value></value>
+		</property>
+		&ndash;&gt;
+    </bean>-->
+<!--	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		  destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://127.0.0.1:3307/datagear?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8&amp;allowMultiQueries=true&amp;useSSL=false"/>
+		<property name="username" value="root"/>
+		<property name="password" value="123456"/>
+
+		&lt;!&ndash; 配置初始化大小、最小、最大 &ndash;&gt;
+		<property name="initialSize" value="3"/>
+		<property name="minIdle" value="3"/>
+		<property name="maxActive" value="20"/>
+
+		&lt;!&ndash; 配置监控统计拦截的filters，wall用于防止sql注入，stat用于统计分析 &ndash;&gt;
+		<property name="filters" value="wall,stat"/>
+	</bean>-->
+
+<!--	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		  destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://86.100.13.233:3306/graph_center?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8&amp;allowMultiQueries=true&amp;useSSL=false"/>
+		<property name="username" value="root"/>
+		<property name="password" value="P@ssw0rd"/>
+
+		&lt;!&ndash; 配置初始化大小、最小、最大 &ndash;&gt;
+		<property name="initialSize" value="3"/>
+		<property name="minIdle" value="3"/>
+		<property name="maxActive" value="20"/>
+
+		&lt;!&ndash; 配置监控统计拦截的filters，wall用于防止sql注入，stat用于统计分析 &ndash;&gt;
+		<property name="filters" value="wall,stat"/>
+	</bean>-->
+
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		  destroy-method="close">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://172.16.200.21:3306/graph_center?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8&amp;allowMultiQueries=true&amp;useSSL=false"/>
+		<property name="username" value="root"/>
+		<property name="password" value="b4fG8tM@"/>
+
+		<!-- 配置初始化大小、最小、最大 -->
+		<property name="initialSize" value="3"/>
+		<property name="minIdle" value="3"/>
+		<property name="maxActive" value="20"/>
+
+		<!-- 配置监控统计拦截的filters，wall用于防止sql注入，stat用于统计分析 -->
+		<property name="filters" value="wall,stat"/>
+	</bean>
+<!--    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+          destroy-method="close">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://86.100.13.235:3306/graph_center?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8&amp;allowMultiQueries=true&amp;useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="P@ssw0rd"/>
+
+        &lt;!&ndash; 配置初始化大小、最小、最大 &ndash;&gt;
+        <property name="initialSize" value="3"/>
+        <property name="minIdle" value="3"/>
+        <property name="maxActive" value="20"/>
+
+        &lt;!&ndash; 配置监控统计拦截的filters，wall用于防止sql注入，stat用于统计分析 &ndash;&gt;
+        <property name="filters" value="wall,stat"/>
+    </bean>-->
+
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- 扫描包路径，如果需要扫描多个包中间用半角逗号隔开 -->
+		<property name="basePackage" value="org.datagear.management.mybatis"></property>
+		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+	</bean>
+    
+</beans>

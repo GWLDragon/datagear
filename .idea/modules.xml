@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/datagear.iml" filepath="$PROJECT_DIR$/datagear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-analysis/datagear-analysis.iml" filepath="$PROJECT_DIR$/datagear-analysis/datagear-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-connection/datagear-connection.iml" filepath="$PROJECT_DIR$/datagear-connection/datagear-connection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-dataexchange/datagear-dataexchange.iml" filepath="$PROJECT_DIR$/datagear-dataexchange/datagear-dataexchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-management/datagear-management.iml" filepath="$PROJECT_DIR$/datagear-management/datagear-management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-meta/datagear-meta.iml" filepath="$PROJECT_DIR$/datagear-meta/datagear-meta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-persistence/datagear-persistence.iml" filepath="$PROJECT_DIR$/datagear-persistence/datagear-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-util/datagear-util.iml" filepath="$PROJECT_DIR$/datagear-util/datagear-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-web/datagear-web.iml" filepath="$PROJECT_DIR$/datagear-web/datagear-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-webapp/datagear-webapp.iml" filepath="$PROJECT_DIR$/datagear-webapp/datagear-webapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datagear-webappembd/datagear-webappembd.iml" filepath="$PROJECT_DIR$/datagear-webappembd/datagear-webappembd.iml" />
+    </modules>
+  </component>
+</project>

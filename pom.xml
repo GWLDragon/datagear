@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.datagear</groupId>
+	<artifactId>datagear</artifactId>
+	<version>1.13.0</version>
+	<packaging>pom</packaging>
+
+	<name>datagear</name>
+	<url>http://www.datagear.tech</url>
+
+	<properties>
+		<skipTests>true</skipTests>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compile.source>1.8</maven.compile.source>
+		<maven.compile.target>1.8</maven.compile.target>
+		<junit.version>4.12</junit.version>
+		<hamcrest.version>2.2</hamcrest.version>
+		<spring.version>4.3.26.RELEASE</spring.version>
+		<spring.security.version>3.2.10.RELEASE</spring.security.version>
+		<DBCP.version>2.7.0</DBCP.version>
+		<slf4j.version>1.7.9</slf4j.version>
+		<slf4j-log4j12.version>1.7.9</slf4j-log4j12.version>
+		<log4j.version>1.2.17</log4j.version>
+		<javax.json.version>1.0.4</javax.json.version>
+		<guava.version>28.2-jre</guava.version>
+		<jackson.version>2.9.10.4</jackson.version>
+		<freemarker.version>2.3.30</freemarker.version>
+		<commons-csv.version>1.4</commons-csv.version>
+		<poi.version>3.17</poi.version>
+		<poi-ooxml.version>3.17</poi-ooxml.version>
+		<maven-antrun-plugin.version>1.4</maven-antrun-plugin.version>
+	</properties>
+	
+	<modules>
+    	<module>datagear-meta</module>
+		<module>datagear-connection</module>
+    	<module>datagear-persistence</module>
+		<module>datagear-dataexchange</module>
+		<module>datagear-management</module>
+    	<module>datagear-util</module>
+		<module>datagear-analysis</module>
+		<module>datagear-web</module>
+		<module>datagear-webapp</module>
+		<module>datagear-webappembd</module>
+	</modules>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>${slf4j.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest</artifactId>
+			<version>${hamcrest.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-library</artifactId>
+			<version>${hamcrest.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.1.24</version>
+	<!--		<scope>test</scope>-->
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+			<version>1.1.22</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.3.2</version>
+				<configuration>
+					<source>${maven.compile.source}</source>
+					<target>${maven.compile.target}</target>
+				</configuration>
+				<executions>
+					<execution>
+						<id>compile-tests</id>
+						<phase>process-test-sources</phase>
+						<goals>
+							<goal>testCompile</goal>
+						</goals>
+						<configuration>
+							<source>${maven.compile.source}</source>
+							<target>${maven.compile.target}</target>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<!-- 统一更新子模块版本号为父模块版本号插件 -->
+			<!-- mvn -N versions:update-child-modules -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>versions-maven-plugin</artifactId>
+				<version>2.3</version>
+				<configuration>
+					<generateBackupPoms>false</generateBackupPoms>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-antrun-plugin</artifactId>
+			    <version>1.4</version>
+			    <executions>
+			    	<execution>
+			    		<id>default-cli</id>
+			    		<goals>
+			    			<goal>run</goal>
+			    		</goals>
+			    		<configuration>
+			    			<tasks>
+			    				<!-- 替换util模块Global.PRODUCT_VERSION版本号 -->
+								<replaceregexp file="datagear-util/src/main/java/org/datagear/util/Global.java" encoding="UTF-8" match="VERSION = &quot;\d+(\.\d+){1,2}(\-\w+){0,1}&quot;" replace="VERSION = &quot;${project.version}&quot;"/>
+								
+			    				<!-- 为management模块的datagear.sql添加版本号行 -->
+			    				<echo file="datagear-management/src/main/resources/org/datagear/management/ddl/datagear.sql" encoding="UTF-8" append="true">
+${line.separator}
+-----------------------------------------
+--version[${project.version}], DO NOT EDIT THIS LINE!
+-----------------------------------------
+${line.separator}
+</echo>
+								<!-- 替换web模块datagear-version.properties中的版本号 -->
+								<replaceregexp file="datagear-web/src/main/resources/org/datagear/web/datagear-version.properties" encoding="UTF-8" match="version=\d+(\.\d+){1,2}(\-\w+){0,1}" replace="version=${project.version}"/>
+								
+								<!-- 为web模块的changelog.txt添加版本号行 -->
+			    				<echo file="datagear-web/src/main/resources/org/datagear/web/changelog.txt" encoding="UTF-8" append="true">
+${line.separator}
+-----------------------------------------
+--v${project.version}
+-----------------------------------------
+${line.separator}
+</echo>
+								<!-- 替换web模块readme.txt中的版本号 -->
+								<replaceregexp file="datagear-webapp/src/main/webapp/readme.txt" encoding="UTF-8" match="DataGear\-v\d+(\.\d+){1,2}(\-\w+){0,1}" replace="DataGear-v${project.version}"/>
+								
+								<!-- 替换webappembd模块readme.txt中的版本号 -->
+								<replaceregexp file="datagear-webappembd/src/main/dist/readme.txt" encoding="UTF-8" match="DataGear\-v\d+(\.\d+){1,2}(\-\w+){0,1}" replace="DataGear-v${project.version}"/>
+								
+								<!-- 替换webappembd模块startup.bat中的版本号 -->
+								<replaceregexp file="datagear-webappembd/src/main/dist/startup.bat" encoding="UTF-8" match="datagear\-webappembd\-\d+(\.\d+){1,2}(\-\w+){0,1}" replace="datagear-webappembd-${project.version}"/>
+								
+								<!-- 替换webappembd模块startup.sh中的版本号 -->
+								<replaceregexp file="datagear-webappembd/src/main/dist/startup.sh" encoding="UTF-8" match="datagear\-webappembd\-\d+(\.\d+){1,2}(\-\w+){0,1}" replace="datagear-webappembd-${project.version}"/>
+								
+			    			</tasks>
+			    		</configuration>
+			    	</execution>
+			    </executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

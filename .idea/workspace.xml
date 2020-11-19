@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="datagear-webapp:war" />
+      <artifact name="datagear-webapp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47cd3986-d022-467f-9821-e6ddbb0df59f" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/datagear-connection/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-webapp/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-meta/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-webappembd/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-dataexchange/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-analysis/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-util/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-web/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-persistence/target/" />
+    <ignored path="$PROJECT_DIR$/datagear-management/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/ChartController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3454">
+              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardRenderAttr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5610">
+              <caret line="293" column="24" selection-start-line="293" selection-start-column="24" selection-end-line="293" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear-dataSource.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/mybatis/SomeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1452">
+              <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/SchemaMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/SqlHistoryMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/HtmlTplDashboardWidgetEntityMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>show/</find>
+      <find>webcon</find>
+      <find>response</find>
+      <find>createHtmlRenderContext2</find>
+      <find>getHtmlWriterNonNull</find>
+      <find>renderHtmlTplDashboard</find>
+      <find>inflate</find>
+      <find>HttpServletResponse</find>
+      <find>dashboardInfo</find>
+      <find>showChart2</find>
+      <find>show3</find>
+      <find>show2</find>
+      <find>rendercha</find>
+      <find>url</find>
+      <find>httputil</find>
+      <find>pagingQueryData</find>
+      <find>chart_plugin_name</find>
+      <find>edit</find>
+      <find>saveAddFor</find>
+      <find>loadchart</find>
+      <find>query</find>
+      <find>authorization</find>
+      <find>renderchart</find>
+      <find>render</find>
+      <find>fail</find>
+      <find>delete</find>
+      <find>show</find>
+      <find>save</find>
+      <find>设置</find>
+      <find>showdata</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/vo/DataFilterPagingQuery.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/Schema.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/util/WebUtils.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/commonDataPermissionSqls.xml" />
+        <option value="$PROJECT_DIR$/datagear-persistence/src/main/java/org/datagear/persistence/Query.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/ExcelDataSetEntity.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/HtmlChartWidgetEntityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/HtmlChartWidgetEntity.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/JsonValueDataSetEntity.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/DataResultEntity.java" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/SqlDataSet.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/SqlDataSetEntity.java" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/AbstractDataSet.java" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/SaveDataSetEntity.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/config/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/security/UserPasswordEncoderImpl.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/config/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/config/CoreConfiguration.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear-applicationContext.xml" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/vo/ShowDashboardVo.java" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/Dashboard.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/util/ResponseWrapper.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/util/WebContextPathFilter.java" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/TemplateDashboardWidget.java" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardWidget.java" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardRenderAttr.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AbstractDataAnalysisController.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/util/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/test/java/org/datagear/web/security/SmtpSettingPasswordEncryptorImplTest.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/DashboardController.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/locales/datagear.properties" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlChart.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/datagear-chartFactory.js" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardWidgetHtmlRenderer.java" />
+        <option value="$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlRenderAttr.java" />
+        <option value="$PROJECT_DIR$/datagear-webapp/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/RenderChartEntity.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear.properties" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/HtmlChartWidgetEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/DataSetEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/DataSetResDirectoryMapper.xml" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/SchemaMapper.xml" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/HtmlTplDashboardWidgetEntityMapper.xml" />
+        <option value="$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/mybatis/SomeMapper.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AbstractController.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/DataSetController.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/SchemaController.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/ChartController.java" />
+        <option value="$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear-dataSource.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="datagear" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="datagear" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-27" />
+    <option name="width" value="1263" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="analysisProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datagear12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datagear12" type="462c0819:PsiDirectoryNode" />
+              <item name="datagear-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="chartPlugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605190655851" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../datagear11" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.datagear.web.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\demo\datagear\datagear-web\src\main\resources\org\datagear\web\webapp\static\script" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
+    <configuration name="SmtpSettingPasswordEncryptorImplTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datagear-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datagear.web.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.datagear.web.security" />
+      <option name="MAIN_CLASS_NAME" value="org.datagear.web.security.SmtpSettingPasswordEncryptorImplTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmtpSettingPasswordEncryptorImplTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datagear-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datagear.web.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.datagear.web.security" />
+      <option name="MAIN_CLASS_NAME" value="org.datagear.web.security.SmtpSettingPasswordEncryptorImplTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmtpSettingPasswordEncryptorImplTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datagear-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.datagear.web.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.datagear.web.security" />
+      <option name="MAIN_CLASS_NAME" value="org.datagear.web.security.SmtpSettingPasswordEncryptorImplTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="datagear-webapp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/datagear_webapp_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_datagear_2" />
+        <option name="HTTP_PORT" value="9999" />
+        <option name="JNDI_PORT" value="1112" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64874" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="datagear-webapp:war exploded" />
+          <artifact name="datagear-webapp:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SmtpSettingPasswordEncryptorImplTest.test1" />
+      <item itemvalue="JUnit.SmtpSettingPasswordEncryptorImplTest.test2" />
+      <item itemvalue="JUnit.SmtpSettingPasswordEncryptorImplTest.test3" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SmtpSettingPasswordEncryptorImplTest.test3" />
+        <item itemvalue="JUnit.SmtpSettingPasswordEncryptorImplTest.test2" />
+        <item itemvalue="JUnit.SmtpSettingPasswordEncryptorImplTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47cd3986-d022-467f-9821-e6ddbb0df59f" name="Default Changelist" comment="" />
+      <created>1602730661659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602730661659</updated>
+      <workItem from="1602730663999" duration="3384000" />
+      <workItem from="1602734316543" duration="22332000" />
+      <workItem from="1602817119530" duration="147000" />
+      <workItem from="1602817776785" duration="14329000" />
+      <workItem from="1602840658839" duration="3220000" />
+      <workItem from="1603071928630" duration="21083000" />
+      <workItem from="1603165653609" duration="71252000" />
+      <workItem from="1603446862260" duration="11521000" />
+      <workItem from="1603681232393" duration="40763000" />
+      <workItem from="1603870200390" duration="10442000" />
+      <workItem from="1603883742650" duration="7844000" />
+      <workItem from="1604021435782" duration="3442000" />
+      <workItem from="1604109279800" duration="3968000" />
+      <workItem from="1604281137647" duration="103054000" />
+      <workItem from="1604887352950" duration="8244000" />
+      <workItem from="1604972022274" duration="8780000" />
+      <workItem from="1605076698159" duration="28636000" />
+      <workItem from="1605236375424" duration="9453000" />
+      <workItem from="1605490624969" duration="6071000" />
+      <workItem from="1605751734853" duration="1414000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test2 - 2020.10.20 at 16h 57m 28s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test2 - 2020.10.20 at 16h 58m 21s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test2 - 2020.10.20 at 17h 02m 38s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test2 - 2020.10.22 at 17h 03m 33s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test3 - 2020.10.23 at 14h 40m 22s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test3 - 2020.10.23 at 14h 41m 43s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test3 - 2020.10.23 at 14h 42m 41s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test3 - 2020.10.23 at 14h 45m 46s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test3 - 2020.10.23 at 14h 47m 37s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SmtpSettingPasswordEncryptorImplTest_test3 - 2020.10.23 at 15h 02m 57s.xml">
+      <configuration name="SmtpSettingPasswordEncryptorImplTest.test3" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="379379000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36378336" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.6412078" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4987874" weight="0.69627" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5012126" side_tool="true" weight="0.4866785" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32983023" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32983023" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31932095" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4995958" weight="0.6536412" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1545293" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3285968" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004042" side_tool="true" weight="0.6536412" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32983023" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Mybatis datasource" order="6" side_tool="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="RestServices" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/AbstractMybatisService.java</url>
+          <line>549</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/AbstractMybatisService.java</url>
+          <line>606</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/util/HttpClientUtil.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/test/java/org/datagear/web/security/SmtpSettingPasswordEncryptorImplTest.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/AbstractMybatisService.java</url>
+          <line>295</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/AbstractMybatisService.java</url>
+          <line>308</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/AbstractMybatisDataPermissionEntityService.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/DataSetController.java</url>
+          <line>1004</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/DataSetEntityServiceImpl.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/AbstractMybatisService.java</url>
+          <line>338</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/UserController.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AuthorizationController.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AbstractController.java</url>
+          <line>355</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/RegisterController.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/impl/AbstractMybatisEntityService.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/RegisterController.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/security/UserPasswordEncoderImpl.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/security/UserDetailsServiceImpl.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.jar!/org/springframework/security/crypto/password/NoOpPasswordEncoder.class</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.10.RELEASE/spring-security-core-3.2.10.RELEASE.jar!/org/springframework/security/crypto/password/StandardPasswordEncoder.class</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AbstractDataAnalysisController.java</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/ChartController.java</url>
+          <line>541</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AbstractDataAnalysisController.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AbstractDataAnalysisController.java</url>
+          <line>224</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/ChartController.java</url>
+          <line>495</line>
+          <properties />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardWidgetHtmlRenderer.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/ChartController.java</url>
+          <line>595</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/DashboardController.java</url>
+          <line>836</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/DashboardController.java</url>
+          <line>774</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardWidgetHtmlRenderer.java</url>
+          <line>588</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/ChartController.java</url>
+          <line>415</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/TemplateDashboardWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/RenderChartEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/vo/ShowDashboardVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardWidget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1342">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardWidgetRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8756">
+          <caret line="495" selection-start-line="495" selection-end-line="495" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardWidgetHtmlRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3718">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+          <folding>
+            <element signature="e#20615#20616#0" expanded="true" />
+            <element signature="e#20639#20640#0" expanded="true" />
+            <element signature="e#20756#20757#0" expanded="true" />
+            <element signature="e#20781#20782#0" expanded="true" />
+            <element signature="e#20831#20832#0" expanded="true" />
+            <element signature="e#20866#20867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/util/WebContextPathFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/domain/HtmlChartWidgetEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="59" column="34" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/service/DataPermissionEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/DataSetResDirectoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="12" column="86" selection-start-line="12" selection-start-column="86" selection-end-line="12" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/DataSetEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="13" column="93" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/HtmlChartWidgetEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/OperationMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3560">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/DataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="296" column="23" selection-start-line="296" selection-start-column="19" selection-end-line="296" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.26.RELEASE/spring-web-4.3.26.RELEASE.jar!/org/springframework/http/HttpStatus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/DataSetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13530">
+          <caret line="664" column="14" selection-start-line="664" selection-start-column="14" selection-end-line="664" selection-end-column="14" />
+          <folding>
+            <element signature="e#45476#45477#0" expanded="true" />
+            <element signature="e#45546#45547#0" expanded="true" />
+            <element signature="e#45594#45595#0" expanded="true" />
+            <element signature="e#45675#45676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/SchemaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="138" column="56" selection-start-line="138" selection-start-column="56" selection-end-line="138" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/AbstractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11440">
+          <caret line="571" column="24" selection-start-line="571" selection-start-column="24" selection-end-line="571" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/view/freemarker/dataSetResDirectory/dataSetResDirectory_form.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/view/freemarker/dataSetResDirectory/dataSetResDirectory_grid.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/view/freemarker/analysis/chart/chart_grid.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3838" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/view/freemarker/analysis/chart/chart_form.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16430">
+          <folding>
+            <element signature="e#63#69#1" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+            <element signature="e#59#65#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/view/freemarker/analysis/chartPlugin/chartPlugin_grid.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1998" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/view/freemarker/analysis/chartPlugin/chartPlugin_select.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#25#31#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/view/freemarker/analysis/chartPlugin/chartPlugin_upload.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-webapp/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="38" selection-start-line="38" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1682" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/datagear-util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="649" column="6" lean-forward="true" selection-start-line="649" selection-start-column="6" selection-end-line="649" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/datagear-chartFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="2986" column="47" lean-forward="true" selection-start-line="2986" selection-start-column="47" selection-end-line="2986" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/datagear-chartForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31135">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/jquery.cookie-1.4.1/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1814">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/datagear-chartSupport.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="87" column="12" lean-forward="true" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/clipboard-2.0.4/clipboard.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/echarts-4.7.0/echarts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/css/DataTables-1.10.18/datatables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/css/datagear-pagination.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/css/jstree-3.3.7/32px.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/css/jstree-3.3.7/40px.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/css/jstree-3.3.7/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/css/jstree-3.3.7/throbber.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/css/jQuery-File-Upload-9.21.0/jquery.fileupload.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/webapp/static/script/textarea-helper-0.3.1/textarea-helper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-analysis/src/main/java/org/datagear/analysis/support/html/HtmlTplDashboardRenderAttr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5610">
+          <caret line="293" column="24" selection-start-line="293" selection-start-column="24" selection-end-line="293" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/java/org/datagear/management/mybatis/SomeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="70" column="63" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/SchemaMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/SqlHistoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-management/src/main/resources/org/datagear/management/mapper/HtmlTplDashboardWidgetEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/resources/org/datagear/web/datagear-dataSource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datagear-web/src/main/java/org/datagear/web/controller/ChartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3454">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>datagear-webapp:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29439253" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>datagear</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

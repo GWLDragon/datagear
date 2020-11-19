@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-analysis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-connection" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-dataexchange" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-management" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-meta" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-persistence" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/datagear-webappembd" charset="UTF-8" />
+  </component>
+</project>
